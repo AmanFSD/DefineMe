@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 300px;
+      margin: 0;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f8f9fa;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: 500;
+      color: #1976d2;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .instruction {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      border-left: 4px solid #1976d2;
+    }
+
+    .instruction-title {
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .instruction-text {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.4;
+    }
+
+    .options-button {
+      width: 100%;
+      background: #1976d2;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .options-button:hover {
+      background: #1565c0;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">📚</div>
+    <div class="title">DefineMe</div>
+    <div class="subtitle">Double-click to learn</div>
+  </div>
+
+  <div class="instruction">
+    <div class="instruction-title">How to use:</div>
+    <div class="instruction-text">
+      Double-click any word on any website to get definitions or translations instantly!
+    </div>
+  </div>
+
+  <button class="options-button" id="options-button">
+    ⚙️ Open Settings
+  </button>
+
+  <script>
+    document.getElementById('options-button').addEventListener('click', () => {
+      chrome.runtime.openOptionsPage();
+    });
+  </script>
+</body>
+</html>
