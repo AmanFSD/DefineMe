@@ -1,4 +1,4 @@
-# DefineMe - Chrome Extension
+# DefineMe - Chrome Extension (LIVE)
 
 A powerful Chrome extension that provides instant word definitions and translations with a simple double-click. DefineMe intelligently prioritizes translations to your target language, with English definitions as a smart fallback.
 
