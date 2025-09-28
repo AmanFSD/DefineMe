@@ -1,4 +1,4 @@
-# DefineMe - Chrome Extension (LIVE)
+# DefineMe - Chrome Extension (LIVE) For Readers and Language Learners
 
 A powerful Chrome extension that provides instant word definitions and translations with a simple double-click. DefineMe intelligently prioritizes translations to your target language, with English definitions as a smart fallback.
 
@@ -246,7 +246,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ##  Changelog
 
-### Version 1.0.0
+### Version 1.0.1
 -  **Translation-first logic** - Prioritizes target language translation over definitions
 -  **15 language support** - Including Hindi, Arabic, Hebrew, Urdu, Bengali, Tamil
 -  **Enhanced tooltips** - Shadow DOM isolation, close button, ESC key support
